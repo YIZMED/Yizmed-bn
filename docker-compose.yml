@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  dev-db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: qfpqvsyc
+      POSTGRES_PASSWORD: sBhxxysejhhY2NsGFo7KqRQwzIbDkru-
+      POSTGRES_DB: qfpqvsyc
+    ports:
+      - '5432:5432'
