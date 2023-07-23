@@ -19,10 +19,6 @@ export class UserController {
   getAll(@GetUser() user: User) {
     return user;
   }
-  @Get("all")
-  getAllUser() {
-    return this.userService.getAllUser();
-  }
   @Patch()
   editUser(
     @GetUser() user: User,
